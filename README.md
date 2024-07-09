@@ -1,7 +1,7 @@
 # Generating Okta OIDC Code and Exchanging for Access Token
 
 ## Overview
-This guide provides instructions to create an Okta OpenID Connect (OIDC) app, and run a Python Flask script to authenticate with your Okta app, retrieve an authorization code, and exchange it for an access token.
+This guide provides details on how to create an Okta OpenID Connect (OIDC) app, run a Python Flask script to authenticate with your Okta app, retrieve an authorization code, and exchange it for an access token.
 
 
 ## Prerequisites
