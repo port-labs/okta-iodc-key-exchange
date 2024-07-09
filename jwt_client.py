@@ -33,6 +33,7 @@ class JWTClient:
         try:
             response = requests.post(self.token_url, data=data, headers=headers)
             response.raise_for_status()
+            logger.info("Access token received.")
             return response.json()
         except requests.exceptions.HTTPError as e:
             logger.error(f"Error: {e}")
