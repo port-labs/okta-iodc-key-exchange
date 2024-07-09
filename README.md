@@ -38,9 +38,9 @@ export OKTA_OIDC_AUTHORIZATION_URL=<ENTER AUTHENTICATION URL>
 export OKTA_OIDC_AUTHORIZATION_SCOPE=<ENTER AUTHENTICATION SCOPE>
 export OKTA_OIDC_REDIRECT_URI=<ENTER REDIRECT URI>
 
-git clone https://github.com/port-labs/okta-iodc-key-exchange.git
+git clone https://github.com/port-labs/okta-oidc-key-exchange.git
 
-cd okta-iodc-key-exchange
+cd okta-oidc-key-exchange
 
 pip install -r ./requirements.txt
 
